@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+.center {
+  text-align: center;
+}
+button {
+  margin-left: 10px;
+  border-radius: 25px;
+  border: #9dacc3 1.5px solid;
+  padding: 5px 20px;
+  color: #425a7b;
+  background-color: #f2f6fa;
+  outline: none;
+}
+button:active {
+  color: #fff;
+  background-color: #9dacc3;
+}
+button:focus {
+  box-shadow: 0px 0px 10px 0 #9dacc3;
+}
+
+#container {
+  width: 100%;
+  color: #425a7b;
+  background-color: #fafcff;
+}
+
+.header {
+  padding: 25px 50px;
+  box-shadow: 0px 0px 25px 0 #9dacc3;
+}
+
+.add-input {
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: #9dacc3 1.5px solid;
+  color: #425a7b;
+  outline: none;
+}
+.add-input:focus {
+  box-shadow: 0px 0px 10px 0 #9dacc3;
+}
+
+.listing-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+  grid-auto-rows: minmax(600px, auto);
+  width: 100%;
+  padding: 25px;
+}
+
+.list-container {
+  padding: 0 25px;
+  border-radius: 10px;
+  background-color: #f2f6fa;
+}
+
+.list {
+  display: grid;
+  grid-gap: 25px;
+}
+
+.ticket {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0 #9dacc3;
+}
+
+.ticket-actions {
+  display: grid;
+  grid-gap: 10px;
+}
+.ticket-actions button {
+  margin: 0;
+}
+
+/** List Item **/
+.list-item{
+  border: 1px solid #ddd;
+  background-color: #fff;
+  min-height: 70px;
+  font-size: 18px;
+  color: black;
+  display: block;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.list-item p{
+  width: 90%;
+}
+.list-item .fa {
+    float: right;
+}
+.fa-trash {
+   position: relative;
+    bottom: 50px;
+    left: 20px;
+    color: red;
+}
+.fa-check {
+   position: relative;
+    bottom: 30px;
+  color: green;
+}
